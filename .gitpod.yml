@@ -1,0 +1,7 @@
+# To learn more about the available configuration options, please refer to https://www.gitpod.io/docs/references/gitpod-yml
+image:
+  file: .gitpod/Dockerfile
+
+tasks:
+  - init: echo 'init script'
+    command: supabase start
